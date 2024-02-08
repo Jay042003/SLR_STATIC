@@ -2,3 +2,4 @@ __pycache__
 env
 utils/__pycache__
 try.py 
+.DS_Store
