@@ -4,3 +4,5 @@ utils/__pycache__
 try.py 
 .DS_Store
 data.csv
+.ipynb_checkpoints
+.ipynb_checkpoints/model-ipynb_checkpoints

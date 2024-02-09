@@ -1,4 +1,5 @@
 import cv2 as cv 
+import numpy as np
 import mediapipe as mp
 
 def detect(img, model)->tuple:
@@ -42,5 +43,18 @@ def visualise_hand_landmarks(img, results)->None:
             )
 
     return
-    
 
+def extract_features(results):
+    mp_hands = mp.solutions.hands
+    coloumn = []
+    if results.multi_hand_landmarks is not None:
+        for landmarks in results.multi_hand_landmarks:
+            for landmark in landmarks.landmark:
+                coloumn.append(float(landmark.x))
+                coloumn.append(float(landmark.y))
+                coloumn.append(float(landmark.z))        
+    if len(coloumn) == 64:
+        print(coloumn)
+        return coloumn 
+    else: 
+        return None
