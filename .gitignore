@@ -6,3 +6,4 @@ try.py
 data.csv
 .ipynb_checkpoints
 .ipynb_checkpoints/model-ipynb_checkpoints
+.vscode
