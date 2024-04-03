@@ -61,6 +61,6 @@ python model.py
 
 ## Author
 
-- [Jay Kadel](https://github.com/author1)
+- [Jay Kadel](https://github.com/Jay042003)
 - [Dibyam Jalan](https://github.com/dibyam-jalan27)
 - [Akash Kumar Singh](https://github.com/author3)
