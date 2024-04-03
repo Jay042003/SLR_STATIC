@@ -2,7 +2,9 @@
 
 ## Overview
 
-This project enables real-time sign language detection on edge devices using Support Vector Machine (SVM) for classification and MediaPipe for feature extraction. It is designed to recognize hand gestures corresponding to letters in American Sign Language (ASL). The classifier has been trained on a dataset of labeled images of ASL gestures. YouTube Link:- https://youtu.be/2uwYzzfZ8RM
+This project enables real-time sign language detection on edge devices using Support Vector Machine (SVM) for classification and MediaPipe for feature extraction. It is designed to recognize hand gestures corresponding to letters in American Sign Language (ASL). The classifier has been trained on a dataset of labeled images of ASL gestures.
+
+YouTube Link:- https://youtu.be/2uwYzzfZ8RM
 
 ## Features
 
