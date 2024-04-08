@@ -24,7 +24,7 @@ This project enables real-time sign language detection on edge devices using Sup
 - [![MediaPipe](https://img.shields.io/badge/MediaPipe-82CAFF?style=for-the-badge&logo=mediapipe&logoColor=black)](https://mediapipe.dev/)
 
 ## Steps
-**Note:** Steps 1 to 5 are optional if you do not prefer to download the pre-trained model.
+**Note:** Steps 4 and 5 are optional if you do not prefer to download the pre-trained model.
 1. **Download the Dataset from Kaggle**:
 
    - Go to [Kaggle](https://www.kaggle.com/), find the ["ASL Dataset"](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset) dataset, and download it to your local machine.
@@ -41,7 +41,7 @@ This project enables real-time sign language detection on edge devices using Sup
    ```
    pip install -r requirements.txt
    ```
-
+   - Python version 3.10.x or lower is required.
 4. **Preprocess the Dataset**:
 
    - Change the directory to the path of your dataset in `data_gathering.py`.
@@ -59,7 +59,7 @@ This project enables real-time sign language detection on edge devices using Sup
 6. **Get the Pickle File**:
 
    - After training, the notebook will generate a pickle file containing the trained SVM model.
-   - This [pickle file](https://drive.google.com/file/d/1laIP-rHnH3zDud8LnVoTO2gxbMF1ensM/view?usp=sharing) (`svm_model.pkl`) will be used for inference in the next step.
+   - This [pickle file](https://drive.google.com/file/d/1laIP-rHnH3zDud8LnVoTO2gxbMF1ensM/view?usp=sharing) (`svm_model.pkl`, you can download the pickle file from here if you do not wish to train your own model) will be used for inference in the next step.
 
 7. **Deploy on Raspberry Pi**:
    - Transfer the `svm_model.pkl` file to your Raspberry Pi.
