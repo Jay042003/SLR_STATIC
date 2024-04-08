@@ -26,7 +26,7 @@ YouTube Link:- https://youtu.be/2uwYzzfZ8RM
 1. **Training the Classifier**:
 
    - Train the SVM classifier using the provided dataset or your own dataset.
-   - Use `model.py` script to train the classifier.
+   - Use `model.ipynb` script to train the classifier.
 
 2. **Deployment on Raspberry Pi**:
 
