@@ -4,7 +4,9 @@
 
 This project enables real-time sign language detection on edge devices using Support Vector Machine (SVM) for classification and MediaPipe for feature extraction. It is designed to recognize hand gestures corresponding to letters in American Sign Language (ASL). The classifier has been trained on a dataset of labeled images of ASL gestures.
 
-YouTube Link:- https://youtu.be/2uwYzzfZ8RM
+**YouTube Link:** [Watch Demo](https://youtu.be/2uwYzzfZ8RM)
+
+**Report Link:** [View Report](https://drive.google.com/file/d/1laIP-rHnH3zDud8LnVoTO2gxbMF1ensM/view?usp=sharing)
 
 ## Features
 
@@ -22,7 +24,7 @@ YouTube Link:- https://youtu.be/2uwYzzfZ8RM
 - [![MediaPipe](https://img.shields.io/badge/MediaPipe-82CAFF?style=for-the-badge&logo=mediapipe&logoColor=black)](https://mediapipe.dev/)
 
 ## Steps
-
+**Note:** Steps 1 to 5 are optional if you prefer to download the pre-trained model.
 1. **Download the Dataset from Kaggle**:
 
    - Go to [Kaggle](https://www.kaggle.com/), find the ["ASL Dataset"](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset) dataset, and download it to your local machine.
