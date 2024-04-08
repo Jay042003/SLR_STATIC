@@ -4,6 +4,8 @@
 
 This project enables real-time sign language detection on edge devices using Support Vector Machine (SVM) for classification and MediaPipe for feature extraction. It is designed to recognize hand gestures corresponding to letters in American Sign Language (ASL). The classifier has been trained on a dataset of labeled images of ASL gestures.
 
+YouTube Link:- https://youtu.be/2uwYzzfZ8RM
+
 ## Features
 
 - Real-time sign language detection on edge devices.
@@ -60,7 +62,6 @@ This project enables real-time sign language detection on edge devices using Sup
 7. **Deploy on Raspberry Pi**:
    - Transfer the `svm_model.pkl` file to your Raspberry Pi.
    - Run the `main.py` script on the Raspberry Pi to perform real-time classification using the trained model.
-
 
 ## Note
 
