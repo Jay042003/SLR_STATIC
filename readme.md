@@ -24,7 +24,7 @@ This project enables real-time sign language detection on edge devices using Sup
 - [![MediaPipe](https://img.shields.io/badge/MediaPipe-82CAFF?style=for-the-badge&logo=mediapipe&logoColor=black)](https://mediapipe.dev/)
 
 ## Steps
-**Note:** Steps 1 to 5 are optional if you prefer to download the pre-trained model.
+**Note:** Steps 1 to 5 are optional if you do not prefer to download the pre-trained model.
 1. **Download the Dataset from Kaggle**:
 
    - Go to [Kaggle](https://www.kaggle.com/), find the ["ASL Dataset"](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset) dataset, and download it to your local machine.
