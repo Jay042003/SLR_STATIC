@@ -21,48 +21,55 @@ YouTube Link:- https://youtu.be/2uwYzzfZ8RM
 - [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 - [![MediaPipe](https://img.shields.io/badge/MediaPipe-82CAFF?style=for-the-badge&logo=mediapipe&logoColor=black)](https://mediapipe.dev/)
 
-## Usage
+## Steps
 
-1. **Training the Classifier**:
+1. **Download the Dataset from Kaggle**:
 
-   - Train the SVM classifier using the provided dataset or your own dataset.
-   - Use `model.ipynb` script to train the classifier.
+   - Go to [Kaggle](https://www.kaggle.com/), find the ["ASL Dataset"](https://www.kaggle.com/datasets/debashishsau/aslamerican-sign-language-aplhabet-dataset) dataset, and download it to your local machine.
 
-2. **Deployment on Raspberry Pi**:
+2. **Clone the Repository**:
+   ```
+   git clone https://github.com/Jay042003/SLR_STATIC
+   cd SLR_STATIC
+   ```
+3. **Install Required Libraries**:
 
-   - Transfer the trained model to Raspberry Pi.
-   - Run `main.py` script on Raspberry Pi.
+   - Install the required dependencies by using
 
-3. **Testing**:
-   - Evaluate the classifier using test images or live camera feed.
+   ```
+   pip install -r requirements.txt
+   ```
 
-## How to Run
+4. **Preprocess the Dataset**:
 
-1. Clone the repository:
+   - Change the directory to the path of your dataset in `data_gathering.py`.
+   - Run the `data_gathering.py` script in the `utils` folder with the path to the downloaded dataset:
 
-```sh
-https://github.com/Jay042003/SLR_STATIC.git
-```
+   ```
+   python utils/data_gathering.py
+   ```
 
-2. Install dependencies:
+5. **Train the Model**:
 
-```sh
-pip install -r requirements.txt
-```
+   - Open the `model.ipynb` notebook and follow the instructions to train the SVM classifier using the generated CSV file from the previous step.
+   - Make sure to adjust any parameters or configurations as needed.
 
-3. Train the classifier:
+6. **Get the Pickle File**:
 
-```sh
-python model.ipynb
-```
+   - After training, the notebook will generate a pickle file containing the trained SVM model.
+   - This [pickle file](https://drive.google.com/file/d/1laIP-rHnH3zDud8LnVoTO2gxbMF1ensM/view?usp=sharing) (`svm_model.pkl`) will be used for inference in the next step.
 
-4. Deploy on Raspberry Pi:
+7. **Deploy on Raspberry Pi**:
+   - Transfer the `svm_model.pkl` file to your Raspberry Pi.
+   - Run the `main.py` script on the Raspberry Pi to perform real-time classification using the trained model.
 
-- Transfer the trained model to Raspberry Pi.
-- Run `main.py` script on Raspberry Pi.
+## Note
+
+- Feel free to customize the code and experiment with different datasets or classification tasks.
+- Ensure that you have sufficient computational resources for training the model, especially for larger datasets.
 
 ## Author
 
-- [Jay Kadel](https://github.com/Jay042003)
+- [Jay Kadel](https://github.com/author1)
 - [Dibyam Jalan](https://github.com/dibyam-jalan27)
 - [Akash Kumar Singh](https://github.com/author3)
