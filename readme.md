@@ -59,7 +59,7 @@ This project enables real-time sign language detection on edge devices using Sup
 6. **Get the Pickle File**:
 
    - After training, the notebook will generate a pickle file containing the trained SVM model.
-   - This [pickle file](https://drive.google.com/file/d/1laIP-rHnH3zDud8LnVoTO2gxbMF1ensM/view?usp=sharing) (`svm_model.pkl`, you can download the pickle file from here if you do not wish to train your own model) will be used for inference in the next step.
+   - This [pickle file](https://drive.google.com/file/d/1a2dKgW1aacG5RcYka2SN__d9Uc5fRs6n/view?usp=sharing) (`svm_model.pkl`, you can download the pickle file from here if you do not wish to train your own model) will be used for inference in the next step.
 
 7. **Deploy on Raspberry Pi**:
    - Transfer the `svm_model.pkl` file to your Raspberry Pi.
