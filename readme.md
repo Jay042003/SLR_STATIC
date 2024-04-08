@@ -53,7 +53,7 @@ pip install -r requirements.txt
 3. Train the classifier:
 
 ```sh
-python model.py
+python model.ipynb
 ```
 
 4. Deploy on Raspberry Pi:
