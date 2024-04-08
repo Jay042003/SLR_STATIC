@@ -61,6 +61,7 @@ This project enables real-time sign language detection on edge devices using Sup
    - Transfer the `svm_model.pkl` file to your Raspberry Pi.
    - Run the `main.py` script on the Raspberry Pi to perform real-time classification using the trained model.
 
+
 ## Note
 
 - Feel free to customize the code and experiment with different datasets or classification tasks.
