@@ -74,4 +74,4 @@ This project enables real-time sign language detection on edge devices using Sup
 
 - [Jay Kadel](https://github.com/Jay042003)
 - [Dibyam Jalan](https://github.com/dibyam-jalan27)
-- [Akash Kumar Singh](https://github.com/Jay042003/SLR_STATIC.git)
+- [Akash Kumar Singh](https://github.com/Akashsingh2100)
